@@ -24,7 +24,7 @@ public class Main {
 
 	private static double extractedCirculo(SdC_Circulo circulo1) {
 		double radio = circulo1.getRadio();
-		double area2 = radio * 3.14;
+		double area2 = radio * Math.PI;
 		System.out.println("Area del circulo 1: " + area2);
 		return area2;
 	}
