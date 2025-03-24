@@ -1,7 +1,6 @@
 package src;
 
 public class SdC_Circulo {
-
 	private int id;
 	private double Radio;
 	private String Color;
@@ -45,9 +44,5 @@ public class SdC_Circulo {
 	public String toString() {
 		return "SdC_Circulo [id=" + id + ", Radio=" + Radio + ", Color=" + Color + "]";
 	}
-	
-	
-	
-	
-	
+
 }
